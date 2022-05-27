@@ -2,6 +2,9 @@
   "name": "alura-dev",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/nlnadialigia/alura-dev"
+  },
   "author": "Nadia Ligia <nlnadialigia@gmail.com>",
   "license": "MIT",
   "scripts": {
