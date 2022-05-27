@@ -1,0 +1,22 @@
+{
+  "name": "alura-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nadia Ligia <nlnadialigia@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz --hook"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "commitizen": "^4.2.4",
+    "cz-ptbr-changelog": "^1.0.1",
+    "husky": "^8.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-ptbr-changelog"
+    }
+  }
+}
