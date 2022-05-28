@@ -1,9 +1,10 @@
 :root {
-  --dark-blue: #051D3B;
+  --dark-blue: #051d3b;
   --blue-100: #96b9fd;
   --blue-200: #7ba4fc;
   --blue-300: #5081fb;
-  --rgba: rgba(255, 255, 255, 0.2)
+  --rgba: rgba(255, 255, 255, 0.2);
+  --light-rgba: rgba(255, 255, 255, 0.4);
 }
 
 * {
@@ -25,7 +26,7 @@ body {
 
 header, main {
   display: grid;
-  grid-template-columns: 1.7fr 4fr 2fr;
+  grid-template-columns: 1.7fr 4fr 1.5fr;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
@@ -37,7 +38,7 @@ header, main {
 }
 
 input, textarea, button, option, select {
-  width: 80%;
+  width: 100%;
   border-radius: 0.4rem;
   border: none;
   padding: 1rem;
@@ -47,11 +48,17 @@ input, textarea, button, option, select {
   font-family: 'Fira Code';
 }
 
+header input {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .user {
   display: flex;
   justify-content: right;
   align-items: center;
   font-size: 0.8rem;
+  margin-left: 2rem;
 }
 
 .photo {
@@ -92,6 +99,42 @@ a:hover {
   color: #ffffff;
 }
 
+#editor {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.highlight {
+  width: 100%;
+  border: 1.5rem solid #6bd1ff;
+  border-radius: 0.4rem;
+}
+
+.mac {
+  background-color: #000000;
+  padding:0.6rem;
+  border-radius: 0.4rem;
+}
+
+.highlight textarea {
+  background-color: #000000;
+  border: none;
+  font-size: 0.8rem;
+}
+
+.highlight textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#editor button {
+  background-color: #07264a;
+  color: #ffffff;
+}
+
 .data {
   display: flex;
   flex-direction: column;
@@ -99,12 +142,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.data input[type = "text"], textarea {
-  width: 100%;
-}
-
 select {
-  width: 100%;
   cursor: pointer;
 }
 
@@ -136,3 +174,26 @@ button:hover {
   background-color: var(--blue-200);
 }
 
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0.4rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--rgba); 
+  border-radius: 0.4rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--light-rgba);
+
+}
