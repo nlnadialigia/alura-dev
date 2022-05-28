@@ -74,6 +74,10 @@ Como esse editor é online, é de extrema importância que ele seja responsivo.
   - Campo para escrever o código
   - Botão para adicionar syntax highlight ao código
 
+  <p align="center">
+  <img src=".github/etapa01.png" width=500>
+</p>
+
 <br>
 
 <div id="id3"></div>
