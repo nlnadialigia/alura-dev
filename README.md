@@ -58,25 +58,36 @@ Como esse editor é online, é de extrema importância que ele seja responsivo.
 
 ## 📌 Etapas
 
-- Todas as etapas estão disponibilizadas no [Trello](https://trello.com/invite/b/RJK6IeDh/362b6b02e2b08a58619301c9c5cac8bb/alura-dev).
+- Todas as etapas estão disponibilizadas no [Trello](https://trello.com/).
 
 - O projeto será desenvolvido em 4 etapas.
 
-  ### Etapa 1
-  - Logo da plataforma
-  - Barra de pesquisa
-  - imagem do perfil de usuário com nome
-  - Menu de navegação
-  - Campo para título do projeto
-  - Campo para descrição do projeto
-  - Campo para selecionar cor de fundo do editor
-  - Botão para salvar projeto
-  - Campo para escrever o código
-  - Botão para adicionar syntax highlight ao código
+### [Etapa 1](https://trello.com/invite/b/RJK6IeDh/362b6b02e2b08a58619301c9c5cac8bb/alura-dev-etapa-01)
+- Logo da plataforma
+- Barra de pesquisa
+- imagem do perfil de usuário com nome
+- Menu de navegação
+- Campo para título do projeto
+- Campo para descrição do projeto
+- Campo para selecionar cor de fundo do editor
+- Botão para salvar projeto
+- Campo para escrever o código
+- Botão para adicionar syntax highlight ao código
 
-  <p align="center">
+<p align="center">
   <img src=".github/etapa01.png" width=500>
 </p>
+
+### [Etapa 2](https://trello.com/invite/b/MnJq6Jug/8641b4a5da54f5caeecc2705255e7aba/alura-dev-etapa-02)
+- Links do menu navegação funcionando
+- Implementação do destaque de sintaxe
+- Implementar a cor de fundo do editor
+- Implementar micro interações na página do editor de código
+- Logo da plataforma
+- Barra de pesquisa
+- Imagem do perfil de usuário com nome
+- Cartões dos projetos salvos
+- Implementar micro interações nas demais páginas
 
 <br>
 
