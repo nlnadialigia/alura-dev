@@ -58,7 +58,7 @@ Como esse editor é online, é de extrema importância que ele seja responsivo.
 
 ## 📌 Etapas
 
-- Todas as etapas estão disponibilizadas no [Trello](https://www.figma.com/file/4EvxipXozqc5nzL0Eqt5oo/Alura-Challenge---Edi%C3%A7%C3%A3o-Front-end?node-id=207%3A1446).
+- Todas as etapas estão disponibilizadas no [Trello](https://trello.com/invite/b/RJK6IeDh/362b6b02e2b08a58619301c9c5cac8bb/alura-dev).
 
 - O projeto será desenvolvido em 4 etapas.
 
@@ -73,6 +73,10 @@ Como esse editor é online, é de extrema importância que ele seja responsivo.
   - Botão para salvar projeto
   - Campo para escrever o código
   - Botão para adicionar syntax highlight ao código
+
+  <p align="center">
+  <img src=".github/etapa01.png" width=500>
+</p>
 
 <br>
 
