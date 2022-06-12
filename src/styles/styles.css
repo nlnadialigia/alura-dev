@@ -54,8 +54,8 @@ select {
 }
 
 header input {
-  width: 95%;
-  margin: 0 auto;
+  width: 85%;
+  /* margin: 0 auto; */
 }
 
 .user {
@@ -105,8 +105,8 @@ a:hover {
 }
 
 #editor {
-  width: 95%;
-  margin: 0 auto;
+  width: 85%;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -114,25 +114,26 @@ a:hover {
 
 .highlight {
   width: 100%;
+  height: 29rem;
   border: 1.5rem solid #6bd1ff;
   border-radius: 0.4rem;
+  background-color: #000000;
 }
 
 .mac {
-  background-color: #000000;
   padding: 0.6rem;
   border-radius: 0.4rem;
 }
 
-.highlight textarea {
-  background-color: #000000;
-  border: none;
-  font-size: 0.8rem;
+.editor-code {
+  width: 100%;
+  height: calc(100% - 2.5rem);
+  padding: 0.5rem;
 }
 
-.highlight textarea:focus {
-  box-shadow: 0 0 0 0;
-  outline: 0;
+.preview {
+  outline: none;
+  background-color: #000000;
 }
 
 #editor button {
@@ -150,6 +151,10 @@ a:hover {
   flex-direction: column;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+label {
+  opacity: 0.6;
 }
 
 select {

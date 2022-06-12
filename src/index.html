@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/hljs.css">
   <link rel="stylesheet" href="./styles/styles.css">
   <title>ALURA DEV</title>
 </head>
@@ -30,35 +31,39 @@
         <img src="./assets/editor-active.svg" alt="Tag de fechamento">
         <p>Editor de código</p>
       </a>
-      <a href="">
+      <a href="./comunity.html">
         <img src="./assets/comunity.svg" alt="ícone de 3 pessoas">
         <P>Comunidade</P>
       </a>
     </nav>
     <nav id="editor">
-        <div class="highlight">
-          <div class="mac">
-            <img src="./assets/red.svg" alt="Bolinha vermelha">
-            <img src="./assets/orange.svg" alt="Bolinha laranja">
-            <img src="./assets/green.svg" alt="Bolinha verde">
-          </div>
-          <textarea name="editor-code" id="code" cols="30" rows="19"></textarea>
+      <div class="highlight">
+        <div class="mac">
+          <img src="./assets/red.svg" alt="Bolinha vermelha">
+          <img src="./assets/orange.svg" alt="Bolinha laranja">
+          <img src="./assets/green.svg" alt="Bolinha verde">
+        </div>
+        <div class="editor-code">
+          <code class="preview hljs" contenteditable="true" aria-label="Editor de código"></code>
+        </div>
       </div>
-      <button type="submit">Visualizar com o highlight</button>
+      <button class="editor-button" type="submit">Visualizar com o highlight</button>
     </nav>
     <nav>
       <div class="project">
         <h4>SEU PROJETO</h4>
         <div class="data">
           <input type="text" name="project" id="project" placeholder="Nome do seu projeto">
-          <textarea name="description" id="description" cols="30" rows="3" placeholder="Descrição do seu projeto"></textarea>
+          <textarea name="description" id="description" cols="30" rows="3"
+            placeholder="Descrição do seu projeto"></textarea>
         </div>
       </div>
       <div class="stacks">
         <h4>PERSONALIZAÇÃO</h4>
         <div class="data">
-          <select name="stack" id="stack" aria-placeholder="Stack">
-            <option value="js">Javascript</option>
+          <label for="stack">Escolha a linguagem</label>
+          <select name="stack" class="stack">
+            <option value="javascript">Javascript</option>
             <option value="html">HTML</option>
             <option value="css">CSS</option>
           </select>
@@ -68,7 +73,8 @@
       <button type="submit">Salvar projeto</button>
     </nav>
   </main>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script src="./scripts/scripts.js"></script>
 </body>
 
 </html>
