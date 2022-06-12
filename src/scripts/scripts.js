@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 const stack = document.querySelector('.stack');
 const codeArea = document.querySelector('.editor-code');
@@ -16,3 +17,12 @@ function addHljs() {
 button.addEventListener('click', () => {
   addHljs();
 });
+
+/* INPUT COLOR */
+const colorInput = document.getElementById('color');
+const highlight = document.querySelector('.highlight');
+
+function changeColor() {
+  const newColor = colorInput.value;
+  highlight.style.borderColor = newColor;
+}
