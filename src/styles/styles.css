@@ -24,7 +24,8 @@ body {
   margin: 2rem;
 }
 
-header, main {
+header,
+main {
   display: grid;
   grid-template-columns: 1.7fr 4fr 1.5fr;
   justify-content: space-between;
@@ -37,7 +38,11 @@ header, main {
   width: 14rem;
 }
 
-input, textarea, button, option, select {
+input,
+textarea,
+button,
+option,
+select {
   width: 100%;
   border-radius: 0.4rem;
   border: none;
@@ -115,7 +120,7 @@ a:hover {
 
 .mac {
   background-color: #000000;
-  padding:0.6rem;
+  padding: 0.6rem;
   border-radius: 0.4rem;
 }
 
@@ -133,6 +138,11 @@ a:hover {
 #editor button {
   background-color: #07264a;
   color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+#editor button:hover {
+  background-color: #0e3e74;
 }
 
 .data {
@@ -188,7 +198,7 @@ button:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: var(--rgba); 
+  background-color: var(--rgba);
   border-radius: 0.4rem;
 }
 
